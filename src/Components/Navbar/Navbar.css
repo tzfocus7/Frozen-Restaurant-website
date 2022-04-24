@@ -1,14 +1,24 @@
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 1em;
+    background-color: rgb(229, 234, 241);
+    padding: 2em;
 }
 .navbar .nav-links{
     display: flex;
+    justify-content: space-around;
+    
 }
 .navbar .nav-links li{
     margin: 10px;
     list-style: none;
     text-transform: uppercase;
+    margin-right: 3em;
+}
+.image{
+    margin-left: 3em;
+}
+.link{
+    text-decoration: none;
 }

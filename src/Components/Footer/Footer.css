@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(240, 95, 119);
+    padding: 2em 3em 7em 3em;
+    margin-top: 2em;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+i{
+    margin: 20px;
+}
+.text{
+    margin-top: -40px;
+}
