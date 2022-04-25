@@ -6,7 +6,10 @@ function Contact() {
   return (
     <div className='contact'>
         <div className='header'>
-            <p>CONTACT</p>       
+            <div>
+                <h1>CONTACT</h1>
+            </div>
+                 
          </div>
 
         <div className='map'>
