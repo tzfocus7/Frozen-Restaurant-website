@@ -5,7 +5,7 @@ import Home from './Pages/Home/Home.js';
 import About from './Pages/About/About.js';
 import Product from './Pages/Product/Product';
 import Contact from './Pages/Contact/Contact.js';
-import {BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import {BrowserRouter, Routes, Route,} from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 
 function App() { 
