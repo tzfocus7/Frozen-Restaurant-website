@@ -1,0 +1,50 @@
+header {
+    background-color: #c8c10d;
+    color: white;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+}
+.header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.Image{
+    background-color: #ebebed;
+    margin: 0;
+    max-width: none;
+    min-height: 249px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: space-around;  
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+.center div{
+    text-align: left;
+    
+}
+.center div h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color:#E32A62 ;
+    width: 30%;
+    padding: 1%;
+}
+.two{
+    margin-top: 7.5%;
+    padding-left: 1%;
+}
+
+
