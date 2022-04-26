@@ -6,26 +6,11 @@ import React from 'react'
 
 function Home() {
   return (
-    <div id="home" className='container py-5'>
-    <div className='d-flex flex-column flex-md-row col-md-10 m-auto justify-content-between'>
-        {
-            data && data.map( data => {
-                return(
-                    <div key={data.id}>
-                        <div className='cardex col-10 m-auto col-md-12 rounded py-3 my-3 px-2 d-flex'>
-                            <img className='me-3 rounded-bottom' src={data.icon} alt="" />
-                            <div className='flex-column'>
-                                <h3>{data.caption}</h3>
-                                <p>{data.text}</p>
-                            </div>
-                        </div>
-                    </div>
-                )
-            })
-        }
+    <div className='Home'>
+    <p><h1>This is the best Ice cream Heaven</h1>
+    <blockquote>We offer a variety of mind blowing choices...Take a stroll and be amazed</blockquote>
+    </p>
     </div>
-</div>
-    
   )
 }
 
