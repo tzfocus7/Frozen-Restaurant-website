@@ -27,6 +27,7 @@ function Product() {
     {id: 2, yogname: 'Blackberry Yogurt', image: BlackberryYog, price: '₦1300' },
     {id: 3, yogname: 'Blueberry Yogurt', image: BlueberryYog, price: '₦1300' },
   ]
+  
   return (
     <div className='container'>
 

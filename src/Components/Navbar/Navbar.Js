@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='image'>
-            <img src='https://freewebsitetemplates.com/preview/frozenyogurtshop/images/logo.png' alt='Freeeze' width="150" height="50"></img>
+            <img src='https://freewebsitetemplates.com/preview/frozenyogurtshop/images/logo.png' alt='Freeeze' width="150" height="50"/>
         </div>
 
        <div className='navbar1'>

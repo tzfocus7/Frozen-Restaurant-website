@@ -26,25 +26,18 @@ header {
 }
 .center{
     display: flex;
-    justify-content: space-around;  
-    padding-left: 10%;
-    padding-right: 10%; 
+    justify-content: space-evenly;  
 }
-.center div{
-    text-align: left;
-    
+.one, .two {
+    width: 400px;
 }
-.center div h2{
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: bold;
-    background-color:#E32A62 ;
-    width: 30%;
-    padding: 1%;
-}
-.two{
-    margin-top: 7.5%;
-    padding-left: 1%;
+.one p, .two p {
+    color: gray;
+    text-align: center;
 }
 
-
+@media screen and (max-width: 600px) {
+    .center {
+        flex-wrap: wrap;
+    }
+}

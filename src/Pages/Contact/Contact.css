@@ -16,28 +16,42 @@
     font-weight: normal;
 }
 .map{
-    background-image: url('C:\Users\HP\Restaurant-website\src\Pages\Images\Map.jpg');
+    background-image: url('../Images/Map.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    padding: 0;
+    max-width: none;
+    width: 100%;
+    position: relative;
 }
 .location{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    margin: 50px 350px 50px 350px;
-    padding: 30px;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    margin: 250px 350px 0px;
+    padding: 10px;
     background-color: rgb(248, 248, 252);
-    
+    position: absolute;
+    top: 0;
+} 
+.icon-location img {
+    width: 30%;
 }
-.text{
-    padding-top: 30px;
-    margin-left: 30px; 
-    opacity: 0.8;  
+.icon-location{  
+    width: 300px;
+    height: 100px;
 }
-.text-header h2{
+.location-text h2{
+    opacity: 0.8;
     color: #E32A62;
+}
+.location-text p {
+    opacity: 0.8;
+    font-weight: normal;
 }
 .inquiry{
     display: flex;
@@ -48,6 +62,11 @@
     margin-right: 30px;
     text-align: left;
 }
+.inquiry-form form {
+    margin: 0;
+    padding: 0;
+}
+
 .comment{
     width: 250px;
     height: 200px;
@@ -68,7 +87,7 @@
 }
 .thoughts{
     width: 500px;
-    padding-bottom: 400px;
+    padding-bottom: 100px;
     padding-left: 7px;
 }
 button{
@@ -83,4 +102,44 @@ button:hover{
 a{
     text-decoration: none;
     color: #E32A62;
+}
+@media screen and (max-width: 992px) {
+    .map {
+        min-height: 280px;
+    }
+    .location {
+        margin: 250px 200px 0;
+        width: 90%;
+    }
+    .inquiry-form {
+        width: 80%;
+    }
+    .inquiry-form form {
+        width: 100%;
+    }
+    .inquiry-form form input, .inquiry-form form textarea {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .location {
+        flex-wrap: wrap;
+        height: 200px;
+        margin: 310px 30px;
+        font-size: smaller;
+        padding: 0;
+    }
+    .icon-location {
+        padding-top: 10px;
+        margin-bottom: -50px;
+    }
+    .icon-location img {
+        width: 20px;
+    }
+    .location div h2, .location div p {
+        font-size: small;
+    }
+    .inquiry {
+        flex-wrap: wrap;
+    }
 }

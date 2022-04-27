@@ -1,15 +1,21 @@
 import React from 'react'
 import './Home.css'
-import Vanilla from '../Images/VanillaYog.jpg'
+import HomeImage from '../Images/StrawYog.jpg'
 
-import React from 'react'
 
 function Home() {
   return (
-    <div className='Home'>
-    <p><h1>This is the best Ice cream Heaven</h1>
-    <blockquote>We offer a variety of mind blowing choices...Take a stroll and be amazed</blockquote>
-    </p>
+    <div className='home'>
+      <div className='home-image'>
+        <img src={HomeImage}/>
+      </div>
+      <div className='home-text'>
+        <div>
+          <h1>This is the best Yogurt Heaven</h1>
+          <p><blockquote>We offer a variety of mind blowing choices...Take a stroll and be amazed</blockquote>
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
