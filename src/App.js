@@ -8,6 +8,7 @@ import Contact from './Pages/Contact/Contact.js';
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
 import Footer from './Components/Footer/Footer.js';
 
+// app component
 function App() { 
   return (
     <div className="App">
