@@ -13,19 +13,19 @@ import './Product.css'
 
 function Product() {
   const foods = [
-    {id: 1, foodname: 'Pineapple Yogurt', image: PineappleYog, price: '₦900' },
-    {id: 2, foodname: 'Coconut Yogurt', image: CoconutYog, price: '₦1000' },
-    {id: 3, foodname: 'Mango Yogurt', image: MangoYog, price: '₦700' },
+    {id: 1, foodname: 'Pineapple Yogurt', image: PineappleYog, price: '£2' },
+    {id: 2, foodname: 'Coconut Yogurt', image: CoconutYog, price: '£1' },
+    {id: 3, foodname: 'Mango Yogurt', image: MangoYog, price: '£1' },
   ]
   const rows = [
-    {id: 1, rowname: 'Milk Yogurt', image: MilkYog, price: '₦500' },
-    {id: 2, rowname: 'Chocolate Yogurt', image: ChocolateYog, price: '₦1100' },
-    {id: 3, rowname: 'Vanilla Yogurt', image: VanillaYog, price: '₦600' },
+    {id: 1, rowname: 'Milk Yogurt', image: MilkYog, price: '£5' },
+    {id: 2, rowname: 'Chocolate Yogurt', image: ChocolateYog, price: '£1' },
+    {id: 3, rowname: 'Vanilla Yogurt', image: VanillaYog, price: '£2' },
   ]
   const yogs = [
-    {id: 1, yogname: 'Strawberry Yogurt', image: StrawberryYog, price: '₦1000' },
-    {id: 2, yogname: 'Blackberry Yogurt', image: BlackberryYog, price: '₦1300' },
-    {id: 3, yogname: 'Blueberry Yogurt', image: BlueberryYog, price: '₦1300' },
+    {id: 1, yogname: 'Strawberry Yogurt', image: StrawberryYog, price: '£1' },
+    {id: 2, yogname: 'Blackberry Yogurt', image: BlackberryYog, price: '£1' },
+    {id: 3, yogname: 'Blueberry Yogurt', image: BlueberryYog, price: '£1' },
   ]
   
   return (
