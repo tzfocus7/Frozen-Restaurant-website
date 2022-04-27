@@ -7,7 +7,7 @@
 }
 .navbar .nav-links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 .navbar .nav-links li{
@@ -21,4 +21,18 @@
 }
 .link{
     text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        justify-content: space-between;
+    }
+    .navbar .nav-links {
+        flex-wrap: wrap;
+    }
+    .navbar .nav-links li {
+        margin: 5px;
+    }
+    .image {
+        margin-left: 0;
+    }
 }

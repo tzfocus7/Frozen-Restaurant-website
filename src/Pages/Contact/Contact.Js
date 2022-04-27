@@ -10,40 +10,36 @@ function Contact() {
                 <h1>CONTACT</h1>
             </div>
                  
-         </div>
-
-        <div className='map'>
-            <div className='location'>
-                <div className='icon-location'>
-                    <img src={Location} alt='' width='40' height='60'/>
-                </div>
-
-                <div className='text'>
-                    <div className='text-header'>
-                        <h2>UNIT 0123 , ABC BUILDING, BUSINESS PARK</h2>
-                    </div>
-                    <div className='text-paragraph'>
-                        <p>This website has been designed for you, as user-friendly as it is, one can easily purchase all kinds of yogurts here.
-                           We are here to serve you. Bringing sweet yogurts to your fingertips.</p>
-                    </div>
-                </div>
-
-            </div>
         </div>
+
+        <div className='map'></div>
+
+        <div className='location'>
+            <div className='icon-location'>
+                <img src={Location} alt=''/>
+            </div>
+            <div className='location-text'>
+                <h2>UNIT 0123 , ABC BUILDING, BUSINESS PARK</h2>
+                <p>One can easily purchase all kinds of yogurts here.We are here to serve you. Bringing sweet yogurts to your fingertips.</p>
+            </div>
+        </div>        
 
         <div className='inquiry'>
             <div className='inquiry-form'>
                 <p className='first'>INQUIRY FORM</p><br/>
-                <input type='text' className='details' placeholder='Name'/><br/>
-                <input type='text' className='details' placeholder='Email'/><br/>
-                <input type='text' className='details' placeholder='Subject'/><br/>
-                <input type='text' className='thoughts' placeholder='Share your thoughts'/><br/>
-                <button>SEND</button>
+                <form>
+                    <input type='text' className='details' placeholder='Name'/><br/>
+                    <input type='text' className='details' placeholder='Email'/><br/>
+                    <input type='text' className='details' placeholder='Subject'/><br/>
+                    <textarea type='text' className='thoughts' placeholder='Share your thoughts'></textarea>
+                    <br/>
+                    <button>SEND</button>
+                </form>
             </div>
 
             <div className='comment'>
                 <p className='first'>WE’D LOVE TO HEAR FROM YOU.</p><br/>
-                <p>If you're having problems with this website products, then don't hesitate to ask for help on the <a href='forum.com'>Forums</a></p>
+                <p>If you're having problems with our products, then don't hesitate to ask for help. Or give us feedback.</p>
             </div>
 
         </div>
